@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='kargs',
-    version='0.1.0',
+    version='0.1.1',
     description='An argprase to/from Kconfig tool',
     url='https://github.com/fjullien/kargs',
     author='Franck Jullien',
