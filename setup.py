@@ -1,5 +1,9 @@
 from setuptools import setup
-from setuptools import find_packages
+
+# read the contents of your README file
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='kargs',
@@ -11,7 +15,8 @@ setup(
     license='BSD 3-clause',
     packages=['kargs'],
     install_requires=['kconfiglib'],
-    include_package_data=True,
+    long_description=long_description,
+    long_description_content_type='text/markdown',
 
     classifiers=[
         'Development Status :: 1 - Planning',
