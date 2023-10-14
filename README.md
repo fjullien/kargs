@@ -32,3 +32,8 @@ def  main():
         config.build_kconfig(args)
 #...
 ```
+
+**Disclamer**
+
+This is an early version. It needs more testing.
+I'll prepare a test suite.
